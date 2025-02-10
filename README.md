@@ -37,7 +37,7 @@ The SportyShoes application is a comprehensive web-based platform designed to fa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sporty-shoes.git
+   git clone https://github.com/Brewno88/sporty-shoes.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -60,7 +60,7 @@ The SportyShoes application is a comprehensive web-based platform designed to fa
 
 ## Usage
 
-- Access the application at `http://localhost:8080`.
+- Access the application at `http://localhost:8090`.
 - Register as a new user or log in with existing credentials.
 - Browse products, add them to the cart, and place orders.
 - Admin users can manage products, orders, and users through the admin panel.
