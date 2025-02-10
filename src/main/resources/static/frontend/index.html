@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportyShoes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>SportyShoes Management</h1>
+    <div id="content">
+      <div id="users">
+        <h2>Users</h2>
+        <button onclick="loadUsers()">Load Users</button>
+        <div id="user-list"></div>
+        <h3>Add User</h3>
+        <form id="add-user-form">
+          <input type="text" id="username" placeholder="Username" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Add User</button>
+        </form>
+      </div>
+      <div id="shoes">
+        <h2>Shoes</h2>
+        <button onclick="loadShoes()">Load Shoes</button>
+        <div id="shoe-list"></div>
+        <h3>Add Shoe</h3>
+        <form id="add-shoe-form">
+          <input type="text" id="shoe-name" placeholder="Shoe Name" required />
+          <input type="number" id="shoe-price" placeholder="Price" required />
+          <input
+            type="text"
+            id="shoe-description"
+            placeholder="Description"
+            required
+          />
+          <input type="file" id="shoe-image" accept="image/*" required />
+          <button type="submit">Add Shoe</button>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
